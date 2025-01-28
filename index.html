@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zufallsgenerator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+
+<header class="align-middle">
+    <img src="img/icon.png" alt="icon" class="icon" onclick="window.location.href='index.html'">
+    <h1>Zufallsgenerator</h1>
+</header>
+
+
+
+<body>
+    <div class="content">
+        <div id="input">
+            <h2>Anzahl der Optionen:</h2>
+            <input placeholder="Anzahl der Optionen" type="number" id="anzahl" min="2" max="20">
+            <br>
+            <br>
+            <br>
+
+
+            <h2>Optionen:</h2>
+            <div id="names">
+                <input id="Option1" placeholder="Option 1" type="text">
+                <br>
+                <input id="Option2" placeholder="Option 2" type="text">
+
+            </div>
+        </div>
+
+
+        <div id="output" style="display: none;">
+            <h2>Ergebnis:</h2>
+            <div id="result" class="result justify-middle"></div>
+        </div>
+
+
+        <br>
+        <br>
+        <div class="justify-middle big">
+            <button type="submit" onclick="Generate();" id="btn">Generieren</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="justify-middle big">
+            <button type="submit" onclick="New();">Neu Starten</button>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+    </div>
+</body>
+
+</html>
