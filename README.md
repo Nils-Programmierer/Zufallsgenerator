@@ -3,4 +3,4 @@ Der Zufallsgenerator ermöglicht es, individuell Daten einzugeben: Nutzer könne
 ## Technologien
 Dieses Projekt verwendet HTML, CSS und JavaScript.
 ## Benutzung
--Öffne die [Website](https://nils-programmierer.github.io/Zufallsgenerator/)
+- Öffne die [Website](https://nils-programmierer.github.io/Zufallsgenerator/)
